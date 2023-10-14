@@ -14,13 +14,13 @@ class EvenOrOdd {
 	   	}
 	}
 	
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Even or odd program? by SM Satheesh");
-    	int num = getInp.nextInt();
-    	
-    	checkType(num);
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Even or odd program? by SM Satheesh");
+	    	int num = getInp.nextInt();
+	    	
+	    	checkType(num);
+	    	getInp.close();
+    	}
 }
