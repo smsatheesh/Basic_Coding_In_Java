@@ -9,9 +9,9 @@ class EvenOrOdd {
 	        		System.out.println(num + " is even number");
 	        	else
 	        		System.out.println(num + " is odd number");
-	    	} else {
-	    		System.out.println("Number is neither even nor odd");
-	    	}
+	    } else {
+	   		System.out.println("Number is neither even nor odd");
+	   	}
 	}
 	
     public static void main(String[] args) {
