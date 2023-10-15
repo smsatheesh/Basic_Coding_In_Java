@@ -27,12 +27,12 @@ class PositiveOrNegative {
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Positive or Negative program? by SM Satheesh");
-    	int num = getInp.nextInt();
-    	
-    	checkIfPositiveOrNegativeUsingIfElse(num); // using if-else clause
-    	checkIfPositiveOrNegativeUsingTernary(num); // using ternary operator
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Positive or Negative program? by SM Satheesh");
+	    	int num = getInp.nextInt();
+	    	
+	    	checkIfPositiveOrNegativeUsingIfElse(num); // using if-else clause
+	    	checkIfPositiveOrNegativeUsingTernary(num); // using ternary operator
+	    	getInp.close();
+	}
 }
