@@ -11,11 +11,11 @@ class LeapOrNonLeapYear {
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Leap (or) Non-Leap year program? by SM Satheesh");
-    	int year = getInp.nextInt();
-    	
-    	checkIfYearIsLeapOrNonLeap(year); // using ternary operator clause
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Leap (or) Non-Leap year program? by SM Satheesh");
+	    	int year = getInp.nextInt();
+	    	
+	    	checkIfYearIsLeapOrNonLeap(year); // using ternary operator clause
+	    	getInp.close();
+	}
 }
