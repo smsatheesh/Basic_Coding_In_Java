@@ -13,15 +13,15 @@ class GreatestOf3Numbers{
 		}
 	}
 	
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Greatest of 3 numbers program? by SM Satheesh");
-    	int num1 = getInp.nextInt();
-    	int num2 = getInp.nextInt();
-    	int num3 = getInp.nextInt();
-    	
-    	maxOf3Numbers(num1, num2, num3);
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Greatest of 3 numbers program? by SM Satheesh");
+	    	int num1 = getInp.nextInt();
+	    	int num2 = getInp.nextInt();
+	    	int num3 = getInp.nextInt();
+	    	
+	    	maxOf3Numbers(num1, num2, num3);
+	    	getInp.close();
+	}
 }
