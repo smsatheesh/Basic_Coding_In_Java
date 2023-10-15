@@ -1,4 +1,6 @@
-class GreatestOf3Numbers{
+import java.util.*;
+
+class GreatestOfThreeNumbers{
 
 	static void maxOf3Numbers(int num1, int num2, int num3) {
 		
