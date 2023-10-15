@@ -39,12 +39,12 @@ class WeekDayNumber {
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Week number respective day program? by SM Satheesh");
-    	System.out.println("Enter week number ?");
-    	int week = getInp.nextInt();
-    	printRespectiveDayOfWeek(week); // switch case conditional execution
-    	
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Week number respective day program? by SM Satheesh");
+	    	System.out.println("Enter week number ?");
+	    	int week = getInp.nextInt();
+	    	printRespectiveDayOfWeek(week); // switch case conditional execution
+	    	
+	    	getInp.close();
+	}
 }
