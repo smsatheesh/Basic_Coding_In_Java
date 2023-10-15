@@ -25,15 +25,15 @@ class GreatestOfTwoNumbers {
 		}
 	}
 	
-    public static void main(String[] args) {
-
-			Scanner getInp = new Scanner(System.in);
-			System.out.println("Greatest of 2 numbers program? by SM Satheesh");
-			int num1 = getInp.nextInt();
-			int num2 = getInp.nextInt();
-			
-			maxOf2NumbersInConditional(num1, num2); // using if-else clause
-			maxOf2NumbersInTernary(num1, num2);
-			getInp.close();
-    }
+	    public static void main(String[] args) {
+	
+		Scanner getInp = new Scanner(System.in);
+		System.out.println("Greatest of 2 numbers program? by SM Satheesh");
+		int num1 = getInp.nextInt();
+		int num2 = getInp.nextInt();
+				
+		maxOf2NumbersInConditional(num1, num2); // using if-else clause
+		maxOf2NumbersInTernary(num1, num2); // using ternary operator
+		getInp.close();
+	    }
 }
