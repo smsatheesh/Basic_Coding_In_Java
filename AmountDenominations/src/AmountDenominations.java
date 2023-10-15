@@ -52,13 +52,13 @@ class AmountDenominations {
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Amount denomination program? by SM Satheesh");
-    	System.out.println("Enter amount ?");
-    	int amount = getInp.nextInt();
-    	amtClone = amount;
-    	checkDenominations(amount);
-    	
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Amount denomination program? by SM Satheesh");
+	    	System.out.println("Enter amount ?");
+	    	int amount = getInp.nextInt();
+	    	amtClone = amount;
+	    	checkDenominations(amount);
+	    	
+	    	getInp.close();
+    	}
 }
