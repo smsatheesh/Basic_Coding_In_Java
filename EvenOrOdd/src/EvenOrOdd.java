@@ -42,13 +42,13 @@ class EvenOrOdd {
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Even or Odd program? by SM Satheesh");
-    	int num = getInp.nextInt();
-    	
-    	checkIfEvenOrOddUsingIfElse(num); // using if-else clause
-    	checkIfEvenOrOddUsingTernary(num); // using ternary operator
-    	checkIfEvenOrOddWithoutUsingModulo(num); // without using modulo operator
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Even or Odd program? by SM Satheesh");
+	    	int num = getInp.nextInt();
+	    	
+	    	checkIfEvenOrOddUsingIfElse(num); // using if-else clause
+	    	checkIfEvenOrOddUsingTernary(num); // using ternary operator
+	    	checkIfEvenOrOddWithoutUsingModulo(num); // without using modulo operator
+	    	getInp.close();
+    	}
 }
