@@ -16,16 +16,16 @@ class PowerOfANumber {
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Power of a number program? by SM Satheesh");
-    	System.out.println("Enter base number ?");
-    	int number = getInp.nextInt();
-    	System.out.println("Enter power to the number " + number);
-    	int power = getInp.nextInt();
-    	
-    	System.out.println("Power of a " + number +" using inbuilt function is " + (int)Math.floor(Math.pow(number, power)));
-    	performPowerOperation(number, power);
-    	
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Power of a number program? by SM Satheesh");
+	    	System.out.println("Enter base number ?");
+	    	int number = getInp.nextInt();
+	    	System.out.println("Enter power to the number " + number);
+	    	int power = getInp.nextInt();
+	    	
+	    	System.out.println("Power of a " + number +" using inbuilt function is " + (int)Math.floor(Math.pow(number, power)));
+	    	performPowerOperation(number, power);
+	    	
+	    	getInp.close();
+    	}
 }
