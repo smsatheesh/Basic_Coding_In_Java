@@ -15,13 +15,13 @@ class CountOfDigits {
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Count of digits of a number (ASC || DESC) program? by SM Satheesh");
-    	System.out.println("Enter number ?");
-    	int num = getInp.nextInt();
-    	
-    	printCountOfDigits(num);
-    	
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Count of digits of a number (ASC || DESC) program? by SM Satheesh");
+	    	System.out.println("Enter number ?");
+	    	int num = getInp.nextInt();
+	    	
+	    	printCountOfDigits(num);
+	    	
+	    	getInp.close();
+   	}
 }
