@@ -16,16 +16,16 @@ class NaturalNumbers {
 	}
 	
 	public static void main(String[] args) {
-		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Print 'n' natural numbers (ASC || DESC) program? by SM Satheesh");
-    	System.out.println("Enter start range ?");
-    	int start = getInp.nextInt();
-    	System.out.println("Enter end range");
-    	int end = getInp.nextInt();
-    	
-    	printNaturalNumbers(start, end);
-    	
-    	getInp.close();
-    }
+			
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Print 'n' natural numbers (ASC || DESC) program? by SM Satheesh");
+	    	System.out.println("Enter start range ?");
+	    	int start = getInp.nextInt();
+	    	System.out.println("Enter end range");
+	    	int end = getInp.nextInt();
+	    	
+	    	printNaturalNumbers(start, end);
+	    	
+	    	getInp.close();
+    	}
 }
