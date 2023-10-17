@@ -21,16 +21,16 @@ class DegreeConversion {
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Power of a number program? by SM Satheesh");
-    	System.out.println("Enter option ?");
-    	System.out.println("\n1. Celsius to Farenheit\n2. Farenheit to Celsisus");
-    	int option = getInp.nextInt();
-    	System.out.println("Enter degree ?");
-    	int deg = getInp.nextInt();
-    	
-    	performPowerOperation(deg, option);
-    	
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Power of a number program? by SM Satheesh");
+	    	System.out.println("Enter option ?");
+	    	System.out.println("\n1. Celsius to Fahrenheit\n2. Fahrenheit to Celsius");
+	    	int option = getInp.nextInt();
+	    	System.out.println("Enter degree ?");
+	    	int deg = getInp.nextInt();
+	    	
+	    	performPowerOperation(deg, option);
+	    	
+	    	getInp.close();
+    	}
 }
