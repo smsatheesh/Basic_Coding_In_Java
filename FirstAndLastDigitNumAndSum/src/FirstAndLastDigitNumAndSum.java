@@ -23,13 +23,13 @@ class FirstAndLastDigitNumAndSum {
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("First and last digits of a number and its sum program? by SM Satheesh");
-    	System.out.println("Enter number ?");
-    	int num = getInp.nextInt();
-    	
-    	printOfDigits(num);
-    	
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("First and last digits of a number and its sum program? by SM Satheesh");
+	    	System.out.println("Enter number ?");
+	    	int num = getInp.nextInt();
+	    	
+	    	printOfDigits(num);
+	    	
+	    	getInp.close();
+    	}
 }
