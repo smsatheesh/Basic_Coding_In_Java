@@ -26,14 +26,14 @@ class ReverseOfANumber{
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Reverse of digits of a number program? by SM Satheesh");
-    	System.out.println("Enter number ?");
-    	int num = getInp.nextInt();
-    	
-    	printReverseOfDigitsUsingString(num); // using String concepts
-    	printReverseOfDigitsUsingMath(num);   // using math concepts
-    	
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Reverse of digits of a number program? by SM Satheesh");
+	    	System.out.println("Enter number ?");
+	    	int num = getInp.nextInt();
+	    	
+	    	printReverseOfDigitsUsingString(num); // using String concepts
+	    	printReverseOfDigitsUsingMath(num);   // using math concepts
+	    	
+	    	getInp.close();
+    	}
 }
