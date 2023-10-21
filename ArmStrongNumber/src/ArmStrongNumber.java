@@ -18,18 +18,18 @@ class ArmStrongNumber {
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("ArmStrong Number");
-    	System.out.println("Enter number ? ");
-    	int num = getInp.nextInt();
-    	
-    	boolean flag = printIsArmStrongNumber(num);
-    	
-    	if(flag)
-    		System.out.println("Armstrong number " + num);
-    	else
-    		System.out.println("Not an armstrong number " + num);
-    	
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("ArmStrong Number");
+	    	System.out.println("Enter number ? ");
+	    	int num = getInp.nextInt();
+	    	
+	    	boolean flag = printIsArmStrongNumber(num);
+	    	
+	    	if(flag)
+	    		System.out.println("Armstrong number " + num);
+	    	else
+	    		System.out.println("Not an armstrong number " + num);
+	    	
+	    	getInp.close();
+    	}
 }
