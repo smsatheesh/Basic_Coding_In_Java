@@ -33,17 +33,17 @@ class FibonacciSeries {
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Fibonacci Series");
-    	System.out.println("Enter count to print ? ");
-    	int num = getInp.nextInt();
-    	
-    	System.out.println("Using Iteration ::: ");
-    	printFibonacciSeriresUsingIterative(num); // Iterative process
-    	System.out.println("\nUsing Recursion ::: ");
-    	System.out.print(n1+ " " + n2 + " ");
-    	printFibonacciSeriesUsingRecursion(num - 2);  // Recursive process
-    	
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Fibonacci Series");
+	    	System.out.println("Enter count to print ? ");
+	    	int num = getInp.nextInt();
+	    	
+	    	System.out.println("Using Iteration ::: ");
+	    	printFibonacciSeriresUsingIterative(num); // Iterative process
+	    	System.out.println("\nUsing Recursion ::: ");
+	    	System.out.print(n1+ " " + n2 + " ");
+	    	printFibonacciSeriesUsingRecursion(num - 2);  // Recursive process
+	    	
+	    	getInp.close();
+    	}
 }
