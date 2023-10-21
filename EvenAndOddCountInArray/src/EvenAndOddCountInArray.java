@@ -19,16 +19,16 @@ class EvenAndOddCountInArray {
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Enter size of the element ? ");
-    	int size = getInp.nextInt();
-    	System.out.println("Enter elements ... ");
-    	int[] arr = new int[size];
-    	for(int loopItr = 0; loopItr < size; loopItr++)
-    		arr[loopItr] = getInp.nextInt();
-    	
-    	printEvenAndOddCounts(arr, size);
-    	
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Enter size of the element ? ");
+	    	int size = getInp.nextInt();
+	    	System.out.println("Enter elements ... ");
+	    	int[] arr = new int[size];
+	    	for(int loopItr = 0; loopItr < size; loopItr++)
+	    		arr[loopItr] = getInp.nextInt();
+	    	
+	    	printEvenAndOddCounts(arr, size);
+	    	
+	    	getInp.close();
+    	}
 }
