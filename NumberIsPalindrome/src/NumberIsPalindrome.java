@@ -35,6 +35,6 @@ class NumberIsPalindrome {
 		int num = getInp.nextInt();
 		
 		checkPalindromeUsingStringConc(num); // using String concept
-		checkPalindromeUsingMathLogic(num);
+		checkPalindromeUsingMathLogic(num);  // using Math logic
 	}
 }
