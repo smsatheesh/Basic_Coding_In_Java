@@ -24,14 +24,14 @@ class FactorialOfANumber {
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Enter number to print its factor ? ");
-    	int num = getInp.nextInt();
-    	
-    	printFactorialOfANumberUsingIterative(num); // Iterative method
-    	int recursiveResponse = printFactorialOfANumberUsingRecursion(num); // Recursively
-    	System.out.println("Recursive response is " +recursiveResponse);
-    	
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Enter number to print its factor ? ");
+	    	int num = getInp.nextInt();
+	    	
+	    	printFactorialOfANumberUsingIterative(num); // Iterative method
+	    	int recursiveResponse = printFactorialOfANumberUsingRecursion(num); // Recursively
+	    	System.out.println("Recursive response is " +recursiveResponse);
+	    	
+	    	getInp.close();
+    	}
 }
