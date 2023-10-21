@@ -28,12 +28,12 @@ class FactorsAndStateOfANumber {
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Enter number to print its factor ? ");
-    	int num = getInp.nextInt();
-    	
-    	printFactorsOfANumberAndItsState(num);
-    	
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Enter number to print its factor ? ");
+	    	int num = getInp.nextInt();
+	    	
+	    	printFactorsOfANumberAndItsState(num);
+	    	
+	    	getInp.close();
+    	}
 }
