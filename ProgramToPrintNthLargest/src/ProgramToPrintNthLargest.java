@@ -31,19 +31,19 @@ class ProgramToPrintNthLargest {
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Find nth largest element program? by SM Satheesh");
-    	System.out.println("Enter size ?");
-    	int size = getInp.nextInt();
-    	int[] arr = new int[size];
-    	System.out.println("Enter elements ? ");
-    	for(int loopItr = 0; loopItr < size; loopItr++)
-    		arr[loopItr] = getInp.nextInt();
-    	
-    	System.out.println("Enter position to print largest element");
-    	int pos = getInp.nextInt();
-    	printNthLargestElement(arr, size, pos);
-    	
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Find nth largest element program? by SM Satheesh");
+	    	System.out.println("Enter size ?");
+	    	int size = getInp.nextInt();
+	    	int[] arr = new int[size];
+	    	System.out.println("Enter elements ? ");
+	    	for(int loopItr = 0; loopItr < size; loopItr++)
+	    		arr[loopItr] = getInp.nextInt();
+	    	
+	    	System.out.println("Enter position to print largest element");
+	    	int pos = getInp.nextInt();
+	    	printNthLargestElement(arr, size, pos);
+	    	
+	    	getInp.close();
+    	}
 }
