@@ -84,26 +84,26 @@ class ArrayCopiesMultiFunctions {
 	
 	public static void main(String[] args) {
 		
-    	Scanner getInp = new Scanner(System.in);
-    	System.out.println("Array Copies");
-    	System.out.println("Enter size of an array ? ");
-    	size = getInp.nextInt();
-    	arr = new int[size];
-    	System.out.println("Enter elements : ");
-    	
-    	for(int loopItr = 0; loopItr < size; loopItr++)
-    		arr[loopItr] = getInp.nextInt();
-    	
-    	System.out.println("Original Array :: ");
-    	for(int ele: arr)
-    		System.out.print(ele + " ");
-    	
-    	printArrayOfCopiesUsingAssignment(arr, size);			// Assignment Operator
-    	printArrayOfCopiesUsingIterativeApproach(arr, size);	// Iterative Approach
-    	printArrayOfCopiesUsingClone(arr, size);				// Clone()
-    	printArrayOfCopiesUsingArrayCopy(arr, size);			// ArrayCopy()
-    	printArrayCopiesUsingArraysCopyOf(arr, size);			// ArraysCopyOf()
-    	
-    	getInp.close();
-    }
+	    	Scanner getInp = new Scanner(System.in);
+	    	System.out.println("Array Copies");
+	    	System.out.println("Enter size of an array ? ");
+	    	size = getInp.nextInt();
+	    	arr = new int[size];
+	    	System.out.println("Enter elements : ");
+	    	
+	    	for(int loopItr = 0; loopItr < size; loopItr++)
+	    		arr[loopItr] = getInp.nextInt();
+	    	
+	    	System.out.println("Original Array :: ");
+	    	for(int ele: arr)
+	    		System.out.print(ele + " ");
+	    	
+	    	printArrayOfCopiesUsingAssignment(arr, size);			// Assignment Operator
+	    	printArrayOfCopiesUsingIterativeApproach(arr, size);	// Iterative Approach
+	    	printArrayOfCopiesUsingClone(arr, size);				// Clone()
+	    	printArrayOfCopiesUsingArrayCopy(arr, size);			// ArrayCopy()
+	    	printArrayCopiesUsingArraysCopyOf(arr, size);			// ArraysCopyOf()
+	    	
+	    	getInp.close();
+    	}
 }
