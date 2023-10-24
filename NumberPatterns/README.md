@@ -1,1 +1,1 @@
-![image info](/Images/1.PNG)
+![Program number 1](/Images/1.PNG)
