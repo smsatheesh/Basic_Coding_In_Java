@@ -1,1 +1,1 @@
-![image info](./Images/1.PNG)
+![image info](/Images/1.PNG)
