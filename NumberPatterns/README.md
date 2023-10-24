@@ -1,4 +1,4 @@
-1. Program 1
+* Program 1
 
 ![Program number 1](Images/1.PNG)
 
