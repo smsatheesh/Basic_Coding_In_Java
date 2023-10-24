@@ -1,6 +1,7 @@
 import java.util.*;
 
 class BinaryNumberConversion {
+	
 	static int intBinaryToDecimalUsingInBuildMethod(int binary) {
 		
 		return Integer.parseInt(String.valueOf(binary), 2);
