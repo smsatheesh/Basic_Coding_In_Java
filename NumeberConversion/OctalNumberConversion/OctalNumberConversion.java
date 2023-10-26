@@ -78,7 +78,7 @@ class OctalNumberConversion {
 		printOctalToBinaryUsingMathLogic(num);
 		
 		// OCTAL to DECIMAL conversion
-		System.out.println("\n\n--- OCTAL CONVERSION ---");
+		System.out.println("\n\n--- DECIMAL CONVERSION ---");
 		System.out.print("In-build methods -> ");
 		int resP = intOctalToDecimalUsingInBuildMethod(num);
 		System.out.println(resP);
