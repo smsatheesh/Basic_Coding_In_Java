@@ -13,11 +13,11 @@ class ArrayCopiesMultiFunctions {
 		
 		System.out.println("\n\nAssignment Operator");
 		for(int ele: b)
-			System.out.print(ele+ " ");
+			System.out.print(ele+ " ");						// Elements are 11, 20
 		
 		System.out.println("\nOriginal Array After Assignment");
 		for(int ele: arr)
-			System.out.print(ele + " ");
+			System.out.print(ele + " ");						// Elements are 11, 20
 	}
 	
 	static void printArrayOfCopiesUsingIterativeApproach(int[] arr, int sz) {
@@ -31,11 +31,11 @@ class ArrayCopiesMultiFunctions {
 		
 		System.out.println("\n\nIterative Process");
 		for(int ele: b)
-			System.out.print(ele + " ");
-		
+			System.out.print(ele + " ");						// Elements are 11, 20
+			
 		System.out.println("\nOriginal Array After Iterative ::");
 		for(int ele: arr)
-			System.out.print(ele + " ");	
+			System.out.print(ele + " ");						// Elements are 10, 20
 	}
 	
 	static void printArrayOfCopiesUsingClone(int[] arr, int sz) {
@@ -46,11 +46,11 @@ class ArrayCopiesMultiFunctions {
 		
 		System.out.println("\n\nClone() Method");
 		for(int ele: b)
-			System.out.print(ele + " ");
+			System.out.print(ele + " ");						// Elements are 11, 20
 		
 		System.out.println("\nOriginal Array After Clone()");
 		for(int ele: arr)
-			System.out.print(ele + " ");
+			System.out.print(ele + " ");						// Elements are 10, 20		
 	}
 	
 	static void printArrayOfCopiesUsingArrayCopy(int[] arr, int sz) {
@@ -61,11 +61,11 @@ class ArrayCopiesMultiFunctions {
 		b[0]++;
 		System.out.println("\n\nArrayCopyOf() Method");
 		for(int ele: b)
-			System.out.print(ele + " ");
+			System.out.print(ele + " ");						// Elements are 11, 20
 		
 		System.out.println("\nOriginal Array");
 		for(int ele: arr)
-			System.out.print(ele + " ");
+			System.out.print(ele + " ");						// Elements are 10, 20
 	}
 	
 	static void printArrayCopiesUsingArraysCopyOf(int[] arr, int sz) {
@@ -75,11 +75,11 @@ class ArrayCopiesMultiFunctions {
 		
 		System.out.println("\n\nArraysCopyOf() Method");
 		for(int ele: b)
-			System.out.print(ele + " ");
+			System.out.print(ele + " ");						// Elements are 11, 20
 		
 		System.out.println("\nOriginal Array After ArraysCopyOf() Method");
 		for(int ele: arr)
-			System.out.print(ele + " ");
+			System.out.print(ele + " ");						// Elements are 10, 20
 	}
 	
 	public static void main(String[] args) {
@@ -87,20 +87,20 @@ class ArrayCopiesMultiFunctions {
 	    	Scanner getInp = new Scanner(System.in);
 	    	System.out.println("Array Copies");
 	    	System.out.println("Enter size of an array ? ");
-	    	size = getInp.nextInt();
+	    	size = getInp.nextInt();					// Suppose, size = 2
 	    	arr = new int[size];
 	    	System.out.println("Enter elements : ");
 	    	
 	    	for(int loopItr = 0; loopItr < size; loopItr++)
-	    		arr[loopItr] = getInp.nextInt();
+	    		arr[loopItr] = getInp.nextInt();			// Suppose, elements are 10, 20 
 	    	
 	    	System.out.println("Original Array :: ");
 	    	for(int ele: arr)
 	    		System.out.print(ele + " ");
 	    	
 	    	printArrayOfCopiesUsingAssignment(arr, size);			// Assignment Operator
-	    	printArrayOfCopiesUsingIterativeApproach(arr, size);	// Iterative Approach
-	    	printArrayOfCopiesUsingClone(arr, size);				// Clone()
+	    	printArrayOfCopiesUsingIterativeApproach(arr, size);		// Iterative Approach
+	    	printArrayOfCopiesUsingClone(arr, size);			// Clone()
 	    	printArrayOfCopiesUsingArrayCopy(arr, size);			// ArrayCopy()
 	    	printArrayCopiesUsingArraysCopyOf(arr, size);			// ArraysCopyOf()
 	    	
