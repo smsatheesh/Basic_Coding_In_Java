@@ -27,15 +27,10 @@ class ArrayInsertion {
 		Integer[] p = IntStream.of( arr ).boxed().toArray( Integer[]::new );
 		List arrResp = new ArrayList( Arrays.asList(p) );
 		
-		if( pos <= sz + 1 ) {
+		if( pos >= 0 && pos <= sz + 1 ) {
 			
-			if( pos > 0 ) {
-				
-				arrResp.add( pos - 1, ele );
-				System.out.println( "Element " + ele + " is inserted and resultant array is " + Arrays.toString(arrResp.toArray()) );
-			} else {
-				System.out.println( "Position cannot be negative" );
-			}
+			arrResp.add( pos - 1, ele );
+			System.out.println( "Element " + ele + " is inserted and resultant array is " + Arrays.toString(arrResp.toArray()) );
 		} else {
 			
 			System.out.println( "Make sure the  for insertion, since it's in out of bound  !!" );
