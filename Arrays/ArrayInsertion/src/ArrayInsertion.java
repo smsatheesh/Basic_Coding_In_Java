@@ -6,7 +6,7 @@ class ArrayInsertion {
 		
 		int[] newArray = new int[ sz + 1 ];;
 		
-		if( pos > 0 && pos <= sz + 1 ) {
+		if( pos >= 0 && pos <= sz + 1 ) {
 
 			for( int start = 0; start < pos - 1 ; start++ )
 				newArray[start] = arr[start];
