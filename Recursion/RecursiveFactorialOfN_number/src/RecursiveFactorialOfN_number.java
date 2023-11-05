@@ -13,6 +13,7 @@ class RecursiveFactorialOfN_number {
 	public static void main(String[] args) {
 
 		Scanner getInp = new Scanner( System.in );
+		System.out.println( "Recursive Factorial Of A Number" );
 		System.out.println( "Enter range of number to factorial : " );
 		int n = getInp.nextInt();
 		System.out.println( fact( n ) );

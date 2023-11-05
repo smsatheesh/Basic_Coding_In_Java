@@ -13,6 +13,7 @@ class RecursiveSumOfN_number {
 	public static void main(String[] args) {
 
 		Scanner getInp = new Scanner( System.in );
+		System.out.println( "Recursive Sum Of Numbers" );
 		System.out.println( "Enter range of number to add : " );
 		int n = getInp.nextInt();
 		System.out.println( sumOfNnumbers( n ) );

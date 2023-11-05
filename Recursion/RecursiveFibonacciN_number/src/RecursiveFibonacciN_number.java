@@ -15,6 +15,7 @@ class RecursiveFibonacciN_number {
 	public static void main(String[] args) {
 
 		Scanner getInp = new Scanner( System.in );
+		System.out.println( "Recursive Fibonacci Number" );
 		System.out.println( "Enter position of number to fibonacci : " );
 		int position = getInp.nextInt();
 		System.out.println( fiboN( position ) );
