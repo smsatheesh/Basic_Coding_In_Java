@@ -17,7 +17,7 @@ class RecursivePalindrome_Num {
 	public static void main(String[] args) {
 		
 		Scanner getInp = new Scanner(System.in);
-		System.out.println( "Plaanidrome of a Number Using Recursion" );
+		System.out.println( "Palindrome of a Number Using Recursion" );
 		System.out.println( "Enter number : " );
 		int num = getInp.nextInt();
 		
