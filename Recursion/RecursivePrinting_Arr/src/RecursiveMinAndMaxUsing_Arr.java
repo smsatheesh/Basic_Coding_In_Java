@@ -1,6 +1,6 @@
 import java.util.*;
 
-class RecursiveMinAndMaxUsing_Arr {
+class RecursivePrinting_Arr {
 
 	static void printArrayRecursive( int arr[], int sz ) {
 		
