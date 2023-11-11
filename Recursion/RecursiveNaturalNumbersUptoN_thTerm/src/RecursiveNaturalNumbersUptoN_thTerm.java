@@ -7,8 +7,8 @@ class RecursiveNaturalNumbersUptoN_thTerm {
 		if( n == 0 )
 			return;
 		else {
-			System.out.print( n + " " );
 			printNaturalnumbers( n - 1 );
+			System.out.print( n + " " );
 		}
 	}
 		
