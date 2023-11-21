@@ -23,9 +23,9 @@ class HoursMinSecConversion {
 			String hrsString = "00", minString = "00", secString = "00";
 			long hrs = min / 60;
 			min = min % 60;
-			min += sec /60;
+			min += sec / 60;
 			sec %= 60;
-			
+						
 			hrsString = String.valueOf( hrs );
 			minString = String.valueOf( min );
 			secString = String.valueOf( sec );
@@ -38,13 +38,30 @@ class HoursMinSecConversion {
 			if( sec < 10 )
 				secString = "0" + secString;
 			
+			if( min >= 60 )
+				return getDurationString( min, sec );
+			
 			return ( hrsString + " HH's " + minString + " MM's " + secString + " SS's" );
 		}
 	}
 
 	public static void main(String[] args) {
 		
-		System.out.println( getDurationString( 65, 95 ) );
-		System.out.println( getDurationString( 95 ) );
+		long min, sec;
+		Scanner getInp = new Scanner( System.in );
+	
+		System.out.println( "Hour's Minute's And Seconds Conversion ? " );
+		System.out.print( "\nEnter Minutes :: " );
+		min = getInp.nextLong();
+		System.out.print( "Enter Seconds :: " );
+		sec = getInp.nextLong();
+		
+		System.out.println( "\nUsing only seconds -> " );
+		System.out.println( getDurationString( sec ) );
+		
+		System.out.println( "\nUsing only minutes and seconds -> " );
+		System.out.println( getDurationString( min, sec ) );;
+		
+		getInp.close();
 	}
 }
