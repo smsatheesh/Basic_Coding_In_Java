@@ -3,3 +3,5 @@
 * Get the values from the user.
 * The program performs recursive hcf and computates lcm thereby, display results to the user.
 * This program uniquely demonstrates the `usages of RECURSION`.
+
+### Contributed by [Sm Satheesh](https://github.com/smsatheesh)
