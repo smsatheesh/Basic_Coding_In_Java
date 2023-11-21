@@ -1,6 +1,6 @@
 import java.util.*;
 
-class StringCharactersitics {
+class StringCharacteristics {
 	
 	static boolean checkStringHasAllUpperCase( String str ) {
 		
