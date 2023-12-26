@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.stream.IntStream;
 
 class ArrayReverse {
 
@@ -28,14 +29,14 @@ class ArrayReverse {
 		System.out.println( Arrays.toString(arr) );
 	}
 
-	static void reverseArrayUsingCollections( int[] arr, int sz ) {
-
+	static void reverseArrayUsingStreamApproach( int[] arr, int sz ) {
+		
 		Integer[] arrObj = IntStream.of(arr).boxed().toArray( Integer[]:: new );
-
-		System.out.println( "\nUsing Collections Approach" );
-		Collections.reverse( Arrays.asList(arrObj));
-		System.out.println( Arrays.asList( arrObj ) );
-
+		
+		System.out.println( "\nUsing Stream Approach ->" );
+		
+		List<Integer> res = Arrays.asList( arrObj );
+		System.out.println( res );
 	}
 
 	public static void main(String[] args) {
@@ -52,6 +53,6 @@ class ArrayReverse {
 
 		reverseArrayUsingTempArray( arr, sz );
 		reverseArrayUsingSwapping( arr, sz );
-		reverseArrayUsingCollections( arr, sz );
+		reverseArrayUsingStreamApproach( arr, sz );
 	}
 }
