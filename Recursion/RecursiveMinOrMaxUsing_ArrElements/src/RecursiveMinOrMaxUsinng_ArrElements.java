@@ -1,6 +1,6 @@
 import java.util.*;
 
-class RecursiveMinOrMaxUsinng_ArrElements {
+class RecursiveMinOrMaxUsing_ArrElements {
 
 	static int printArrayRecursiveMaxOrMinElement( int arr[], int sz, String type ) {
 		
