@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class RecursiveSerachOfFirstEnteredElement {
+public class RecursiveSerachOfLastOccuredElement {
 
 	static int checkAndReturnIndex( int num, int[] arr, int idx ) {
 		
@@ -8,23 +8,23 @@ public class RecursiveSerachOfFirstEnteredElement {
 			return -1;
 		else if( num == arr[idx] )
 			return ( idx + 1 );
-		else
-			return checkAndReturnIndex( num, arr, idx+1 );
+		else 
+			return checkAndReturnIndex( num, arr, ++idx );
 	}
 	
 	public static void main (String[] args) {
     	
 		Scanner getInp = new Scanner( System.in );
-		System.out.println( "Enter number to check : " );
-		int num = getInp.nextInt();
 		System.out.println( "Enter size of an array : " );
 		int sz = getInp.nextInt();
 		int[] arr = new int[ sz ];
 		System.out.println( "Enter elements : " );
-		for( int i = 0; i < num; i++ )
+		for( int i = 0; i < sz; i++ )
 			arr[i] = getInp.nextInt();
+		System.out.println( "Enter number to check : " );
+		int num = getInp.nextInt();
 		
-		int result = checkAndReturnIndex( num, arr, 0);
+		int result = checkAndReturnIndex( num, arr, 0 );
 		if( result != -1 )
 			System.out.println( "Element present, at " + result );
 		else
