@@ -1,4 +1,4 @@
-public class VechileRegistrationFancyNumbersList {
+public class VehicleRegistrationFancyNumbersList {
 	
 	static boolean getSum7Check( int num ) {
 		
