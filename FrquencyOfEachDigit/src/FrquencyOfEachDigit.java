@@ -20,9 +20,27 @@ class FrquencyOfEachDigit {
 			}
 			num /= 10;
 		}
-		
+
+		System.out.println( "Frequency of Elements : " ); 
 		for(int loopItr = 0; loopItr < freq.length; loopItr++)
 			System.out.print(loopItr + " -> " + freq[loopItr] + "\n");
+	}
+
+	printFrequencyMostOptimisedApproach( int[] arr ) {
+
+		Arrays.sort( arr ); 
+		int i = 0;
+		System.out.println( "Frequency of Elements( Optimised Approach ) : " ); 
+		while( i < arr.length ) {
+			int count = 1;
+			while( i < arr.length - 1 && arr[ i ] == arr[ i + 1 ] ) {
+				++i;
+				count += 1;
+			}
+			
+			System.out.println( arr[i] + "-> " + count );
+			++i;
+		}
 	}
 	
 	public static void main(String[] args) {
