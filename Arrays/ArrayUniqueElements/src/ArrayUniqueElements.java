@@ -28,7 +28,7 @@ class ArrayUniqueElements {
 		ArrayList<Integer> arrList = new ArrayList<Integer>( Arrays.asList( arrInit ) );
 		LinkedHashSet<Integer> set = new LinkedHashSet<Integer>(arrList);
 		
-		System.out.println( "\nRemoving duplicates using HAshSet" );
+		System.out.println( "\nRemoving duplicates using HashSet" );
 		System.out.println( Arrays.toString(set.toArray()) );
 	}
 
